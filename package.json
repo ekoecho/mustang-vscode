@@ -1,0 +1,23 @@
+{
+	"name": "mustang",
+	"displayName": "Mustang ",
+	"description": "Copy of Vim's Mustang theme",
+	"version": "0.0.1",
+	"publisher": "ekoecho",
+	"repository": "https://github.com/ekoecho/mustang-vscode",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mustang",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mustang.tmTheme"
+			}
+		]
+	}
+}
